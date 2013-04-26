@@ -25,4 +25,11 @@ public class LoggingAspect
 		
 	} // end method myAroundAdvice
 	
+	
+	public void loggingAdvice()
+	{
+		System.out.println("Logging from the advice.");
+	} // end method loggingAdvice
+	
+	
 } // end Class LoggingAspect

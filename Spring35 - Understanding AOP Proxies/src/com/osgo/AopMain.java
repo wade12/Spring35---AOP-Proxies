@@ -14,6 +14,7 @@ public class AopMain
 		// ShapeService shapeService = ctx.getBean("shapeService", ShapeService.class);
 		FactoryService factoryService = new FactoryService();
 		ShapeService shapeService = (ShapeService) factoryService.getBean("shapeService");
+		
 		shapeService.getCircle();
 	
 	} //end method main
